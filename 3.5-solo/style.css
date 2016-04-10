@@ -1,1 +1,53 @@
-body {background: blue}
+body {background: blue;
+		background-image: url("http://media.indiatimes.in/media/content/2014/Dec/f10323nchristine%20blogspot%20in_1419330367.jpg");
+		}
+
+#cups {
+		background: white;
+		margin: 50px 50px 50px 50px;
+		padding: 10px 10px 10px 10px;
+
+}
+
+.candy {background: green;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		padding-left: 20px;
+		font-family: monospace;
+
+}
+
+footer {background: #00FFFF;
+		margin:auto;
+		width: 20%;
+		padding: 1px 1px 1px 1px;
+		}
+img { margin:auto;
+	width: 60%; }
+
+a:hover {
+	color: yellow;
+ }
+
+
+
+
+
+  @media only screen and (max-width: 500px) {
+  h1 { width: 34%;
+            height: auto; }
+ }
+ @media only screen and (max-width: 500px) {
+  p { width: 21%;
+            height: auto; }
+ }
+
+
+
+
+
+
+
+
+

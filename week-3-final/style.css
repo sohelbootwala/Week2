@@ -1,0 +1,24 @@
+body {background: #DEB887;}
+
+.bike {
+	border-style: groove;
+	padding: 2px 2px 2px 2px;
+	margin: 30px 3px 3px 3px;
+	background: white;
+	font-family: cursive;
+padding-top: 10px;}
+
+p {font-size: 23px;}
+
+li {list-style-image: none;
+	margin: 1px ;
+	padding: 10px;
+	padding-bottom: 10px;
+	background: green;
+	list-style-type: circle;
+	float:left;
+	}
+  @media only screen and (max-width: 960px) {
+  li { width: 25%;
+            height: auto; }
+        }
